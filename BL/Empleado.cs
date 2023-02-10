@@ -18,7 +18,7 @@ namespace BL
                 {
                     var query=context.GetAll().ToList();
                     result.ObjectList = new List<object>();
-
+                    
                 }
             }
             catch (Exception ex)
